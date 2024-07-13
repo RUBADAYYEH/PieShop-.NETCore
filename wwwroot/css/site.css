@@ -4213,7 +4213,7 @@ textarea.form-control-lg {
 .navbar {
     position: relative;
     display: flex;
-    height:4rem;
+    height:7rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
