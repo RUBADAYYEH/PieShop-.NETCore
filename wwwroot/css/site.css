@@ -644,7 +644,7 @@ progress {
 .container-md,
 .container-sm {
     width: 100%;
-    height:47;
+   
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
@@ -4213,7 +4213,7 @@ textarea.form-control-lg {
 .navbar {
     position: relative;
     display: flex;
-    height:7rem;
+   
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -4231,6 +4231,7 @@ textarea.form-control-lg {
         display: flex;
         flex-wrap: inherit;
         align-items: center;
+        height:90px;
         justify-content: space-between;
     }
 
@@ -11741,6 +11742,7 @@ body {
 h1, .h1 {
     font-weight: 800;
     font-size: 36px;
+    margin:20px;
 }
 
 h2, .h2 {
