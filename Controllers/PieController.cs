@@ -7,12 +7,12 @@ namespace PieShop.Controllers
     public class PieController : Controller
     {
         private readonly IPieRepository _pieRepository;
-        private readonly ICategoryRepository _categoryRepository;
+      //  private readonly ICategoryRepository _categoryRepository;
 
-        public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
+        public PieController(IPieRepository pieRepository)
         {
             _pieRepository = pieRepository;
-            _categoryRepository = categoryRepository;
+           
         }
 
         public IActionResult List()
@@ -28,6 +28,10 @@ namespace PieShop.Controllers
                 return NotFound();
             }
             return View(pie);
+        }
+        public IActionResult Search()
+        {
+            return View();
         }
     }
 }
